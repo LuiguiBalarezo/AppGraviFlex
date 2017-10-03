@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Mantenimientos" >
+        <menu>
+            <item
+                android:id="@+id/nav_obras"
+                android:icon="@drawable/ic_build_black_24dp"
+                android:checkable="true"
+                android:title="Obras" />
+            <item
+                android:id="@+id/nav_egresos"
+                android:icon="@drawable/ic_money_off_black_24dp"
+                android:checkable="true"
+                android:title="Egresos" />
+            <item
+                android:id="@+id/nav_ingresos"
+                android:checkable="true"
+                android:icon="@drawable/ic_attach_money_black_24dp"
+                android:title="Ingresos" />
+            <item
+                android:id="@+id/nav_trabajadores"
+                android:checkable="true"
+                android:icon="@drawable/ic_group_black_24dp"
+                android:title="Trabajadores" />
+            <item
+                android:id="@+id/nav_movilidad"
+                android:checkable="true"
+                android:icon="@drawable/ic_directions_car_black_24dp"
+                android:title="Movilidad" />
+        </menu>
+    </item>
+
+    <item android:title="Reportes" >
+        <menu >
+            <item
+                android:id="@+id/nav_r_obras"
+                android:checkable="true"
+                android:icon="@drawable/ic_assignment_black_24dp"
+                android:title="Obras" />
+            <item
+                android:id="@+id/nav_r_egresos"
+                android:icon="@drawable/ic_assignment_black_24dp"
+                android:title="Egresos"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/nav_r_ingresos"
+                android:icon="@drawable/ic_assignment_black_24dp"
+                android:title="Ingresos"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/nav_r_trabajadores"
+                android:icon="@drawable/ic_assignment_black_24dp"
+                android:title="Trabajadores"
+                android:checkable="true"/>
+        </menu>
+    </item>
+
+    <item android:title="Preferencias" >
+        <menu >
+            <item
+                android:id="@+id/nav_preferencias"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="Configuracion"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/nav_salir"
+                android:icon="@drawable/ic_power_settings_new_black_24dp"
+                android:title="Salir"
+                android:checkable="true"/>
+        </menu>
+    </item>
+
+</menu>
